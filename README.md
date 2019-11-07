@@ -14,7 +14,7 @@ Our training dataset has been retrieved from kaggle : https://www.kaggle.com/bla
 
 In this dataset, each row represents a customer, each column contains customer’s attributes described on the column Metadata. The raw data contains 7043 rows (customers) and 21 columns (features).
 
-customerID : Customer ID
+customerID : Customer ID\n
 gender : Whether the customer is a male or a female
 SeniorCitizen : Whether the customer is a senior citizen or not (1, 0)
 Partner : Whether the customer has a partner or not (Yes, No)
