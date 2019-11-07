@@ -41,24 +41,11 @@ In this dataset, each row represents a customer, each column contains customer�
 1) The data are under the form of a csv file, manually downloaded and stored into a GCS bucket;
 
 2) We perform data exploration in Cloud Datalab in order to :
-        - better understand our dataset for ML task (ie : correlation between features);
-        - knowing which transform need to be implemented in Beam pipeline (ie. outlier detection, datatype bug, missing               values);
-        
+* better understand our dataset for ML task (ie : correlation between features);
+* knowing which transform need to be implemented in Beam pipeline (ie. outlier detection, datatype bug, missing               values);
 
+3) Creating a Dataflow to run an Apache Beam pipeline using the python SDK from GCS to BigQuery
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+4) Using BigQuery ML to developp our ML model and to predict new data
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+5) The ultimate goal would be to incorporate this project into a Google App engine using the Flask library
