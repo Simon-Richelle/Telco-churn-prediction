@@ -66,6 +66,7 @@ In order to use in GCP :
 Note: we could also retrieve directly from the web if data is subject to change
 
 2) Run the jupyter notebooks
-Note: "churn_with_sklearn" retrieve its (pre-processed) data from a BigQuery table created using Dataprep. The goal is to use an ApacheBeam pipeline on Dataflow to perform those data pre-processing. Of course, those can be done easily in Pandas (in Cloud Datalab or Jupyter Notebook) in order to experiment ML with Sklearn
+* Note: "churn_with_sklearn" retrieve its (pre-processed) data from a BigQuery table created using Dataprep. The goal is to use an ApacheBeam pipeline on Dataflow to perform those data pre-processing. Of course, those can be done easily in Pandas (in Cloud Datalab or Jupyter Notebook) in order to experiment ML with Sklearn
 
 ### Apache beam
+
