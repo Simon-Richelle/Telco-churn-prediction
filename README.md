@@ -55,11 +55,17 @@ In this dataset, each row represents a customer, each column contains customerâ€
 ### Cloud Datalab
 
 This ressource is used to explore our data in order to : 
-(1) Better understand the provided data using statistics(mean,, ..), visualizations, correlations, etc.. 
-(2) Assess data quality (missing values, outliers, datatype missmatch, ..) and plan the pre-processing pipeline to be implemented in Apache-Beam
-(3) Experiment different ML algorithm with sickit-learn
+1) Better understand the provided data using statistics(mean,, ..), visualizations, correlations, etc.. 
+2) Assess data quality (missing values, outliers, datatype missmatch, ..) and plan the pre-processing pipeline to be implemented in Apache-Beam
+3) Experiment different ML algorithm with sickit-learn
 
 In order to use in GCP :
+1) Download data
 * if using the .csv file from GitHub, just run the "Data-Exploration.ipynb"
 * if the .csv file is in GCS, run "IMPORT_ORIGINAL_DATA_FROM_GCS" and edit <> 
-Note : we could also retrieve directly from the web if data is subject to change
+Note: we could also retrieve directly from the web if data is subject to change
+
+2) Run the jupyter notebooks
+Note: "churn_with_sklearn" retrieve its (pre-processed) data from a BigQuery table created using Dataprep. The goal is to use an ApacheBeam pipeline on Dataflow to perform those data pre-processing. Of course, those can be done easily in Pandas (in Cloud Datalab or Jupyter Notebook) in order to experiment ML with Sklearn
+
+### Apache beam
