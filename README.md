@@ -49,3 +49,17 @@ In this dataset, each row represents a customer, each column contains customerâ€
 4) Using BigQuery ML to developp our ML model and to predict new data
 
 5) The ultimate goal would be to incorporate this project into a Google App engine using the Flask library
+
+## GCP ressources
+
+### Cloud Datalab
+
+This ressource is used to explore our data in order to : 
+* (1) Better understand the provided data using statistics(mean,, ..), visualizations, correlations, etc.. 
+* (2) Assess data quality (missing values, outliers, datatype missmatch, ..) and plan the pre-processing pipeline to be implemented in Apache-Beam
+* (3) Experiment different ML algorithm with sickit-learn
+
+In order to use in GCP :
+* if using the .csv file from GitHub, just run the data
+* if the .csv file is in GCS, run "IMPORT_ORIGINAL_DATA_FROM_GCS" and edit <> 
+Note : we could also retrieve directly from the web if data is subject to change
