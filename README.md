@@ -60,6 +60,6 @@ This ressource is used to explore our data in order to :
 * (3) Experiment different ML algorithm with sickit-learn
 
 In order to use in GCP :
-* if using the .csv file from GitHub, just run the data
+* if using the .csv file from GitHub, just run the "Data-Exploration.ipynb"
 * if the .csv file is in GCS, run "IMPORT_ORIGINAL_DATA_FROM_GCS" and edit <> 
 Note : we could also retrieve directly from the web if data is subject to change
