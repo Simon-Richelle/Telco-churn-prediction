@@ -70,3 +70,10 @@ Note: we could also retrieve directly from the web if data is subject to change
 
 ### Apache beam
 
+#### File list
+
+1) "install_packages.sh" to be run prior to pipeline execution (1) cd ~/training-data-analyst/courses/data_analysis/lab2/python(2) sudo ./install_packages.sh
+* !!!! should the above be in a file such as requirement? Need to manualy enter Y to install on disk
+* Note : when running pipeline uses *python3 <file_name> --flags*
+
+2) "data_cleaning_pipline.py" : This file takes data from a csv file in GCS, applies some transformations and store the resulting data in a BigQuery Table
